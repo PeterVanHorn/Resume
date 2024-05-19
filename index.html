@@ -38,13 +38,6 @@
   <!-- ***** Header ***** -->
 
   <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="https://peetmgeet.github.io/Portfolio/#" class="nav__link">Portfolio</a></li>
-        </ul>
-      </nav>
-    </div>
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
@@ -122,39 +115,48 @@
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <h2>Skills</h2>
         <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              A Journalist and Software Developer by training, Landscaper and Outdoorsman by trade, Mechanic and Competitor by choice. 
-              I seek challenge and knowledge every day. 
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="https://github.com/peetmgeet/Resume" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/option.png" alt="" />
-          </div>
+          <ul class="work__list">
+            <li>Languages: C#, Java, Javascript, Python, HTML/CSS, SQL, Powershell, Bash</li>
+            <li>Databases: MongoDB, Azure, SQL Server, Neo4J</li>
+            <li>Creative: Blender, Unity, Unreal Engine, Stable Diffusion, ChatGPT, Adobe Photoshop/Indesign</li>
+            <li>Frameworks: ASP.NET, VUE.js, Spring JPA, Razor Pages</li>
+            <li>OS: Windows, Linux, Mac, TruNas, ChromeOS</li>
+            <li>PC building, modifying and troubleshooting</li>
+            <li>Customer Service</li>
+            <li>Problem Solving</li>
+          </ul>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
+  <section class="work" id="work">
     <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          If you need broad and varied talent, combined with a positive attitude and a drive for efficiency and excellence, give me a shout. 
-          I am always looking for new experiences and challenges.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:petervanhornmt@gmail.com" class="btn">petervanhornmt@gmail.com</a>
+      <h2>Education</h2>
+      <div class="work__boxes">
+
+        <!-- Each div with the work__box class is a project. -->
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>AAS. Computer Science</h3>
+            <p>
+              Helena College
+            </p>
+          </div>
+        </div>
+
+        <div class="work__box">
+          <div class="work__text">
+            <h3>BA. Journalism</h3>
+            <p>
+              University of Montana
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
